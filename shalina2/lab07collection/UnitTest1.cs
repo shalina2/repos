@@ -42,9 +42,11 @@ namespace lab07collection
         public void getinfo()
         {
             Deck<Card> Deck = new Deck<Card>();
-            Card card1 = new Card("2", Card.Type.Diamonds);
+            Card card1 = new Card("3", Card.Type.Diamonds);
             Deck.Add(card1);
-            Assert.Equal("2",card1.CardNum );
+            Assert.Equal("3",card1.CardNum );
+
+
         }
     }
 }
